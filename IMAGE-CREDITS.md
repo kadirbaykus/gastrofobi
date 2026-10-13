@@ -16,7 +16,7 @@ The small meal photos are loaded from these web image sources, so the photos nee
 | 10 | Tavuk suyu çorbası | [Image source](https://www.pilavciazzem.com/product-tavuk-suyu-corba) |
 | 11 | Karnıyarık | [Image source](https://onedio.com/haber/karniyarik-tarifi-turk-mutfaginin-vazgecilmezi-karniyarik-yemegi-nasil-yapilir-923863) |
 | 12 | İmam bayıldı | [Image source](https://www.oleturk.com/blogs/recipes/imam-bayildi-turkish-classic-european-style-adaptation) |
-| 13 | Tavuk sote | [Image source](https://www.keyfivirane.com/urunler-tavuk-sote-125) |
+| 13 | Tavuk sote | [Image source](https://www.lezzet.com.tr/yemek-tarifleri/et-yemekleri/tavuk-yemekleri/tavuk-sote-tarifi) |
 | 14 | Etli kuru fasulye | [Image source](https://haberglobal.com/yasam/etli-kuru-fasulye-yapmanin-maliyeti-ne-kadar-istanbul-ankara-izmir-370634) |
 | 15 | Nohut yemeği | [Image source](https://www.yasemin.com/yemek/haber/2851710-en-kolay-pisen-nohut-yemegi-tarifi-nohut-duduklu-olmadan-nasil-pisirilir) |
 | 16 | Zeytinyağlı taze fasulye | [Image source](https://priyaeasyntastyrecipes.blogspot.com/2016/05/zeytinyagli-taze-fasulye-turkish-green.html) |
@@ -46,7 +46,7 @@ The small meal photos are loaded from these web image sources, so the photos nee
 | 40 | Mantı | [Image source](https://www.veterineranne.com/unlu-mamuller-ve-ekmekler/manti) |
 | 41 | Gözleme (ıspanaklı) | [Image source](https://www.tooistanbul.com/en/other-specialties/) |
 | 42 | Spagetti domates soslu | [Image source](https://www.cucchiaio.it/fotogallery/50-ricette-di-primi-piatti-di-pasta/) |
-| 43 | Fırın makarna | [Image source](https://www.doyouknowturkey.com/turkish-oven-bakes-pasta-todays-recipe/) |
+| 43 | Fırın makarna | [Image source](https://www.nefisyemektarifleri.com/video/besamel-soslu-firin-makarna-tarifi/) |
 | 44 | Sütlaç | [Image source](https://www.foodpaket.de/blogs/rezepte-von-foodpaket/sutlac-rezept-milchreis) |
 | 45 | Kazandibi | [Image source](https://www.turkgun.com/yemek-tarifleri/kazandibi-tarifi-geleneksel-turk-mutfaginin-yanik-lezzeti/322958) |
 | 46 | Baklava | [Image source](https://www.lezzet.com.tr/yemek-tarifleri/tatli-tarifleri/serbetli-tatlilar/ev-usulu-baklava-tarifi) |
@@ -54,3 +54,4 @@ The small meal photos are loaded from these web image sources, so the photos nee
 | 48 | Aşure | [Image source](https://www.haberturk.com/asure-tarifi-asure-nasil-yapilir-iste-lezetli-asurenin-puf-noktalari-2151724) |
 | 49 | Kabak tatlısı | [Image source](https://yemek.com/bal-kabakli-tatli-tarifleri/) |
 | 50 | Tavuklu nohutlu salata | [Image source](https://andrewtaste.com/recipe/chicken-and-chickpea-salad/) |
+

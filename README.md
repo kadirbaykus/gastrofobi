@@ -8,7 +8,7 @@ Open `index.html` in Chrome, Edge, Firefox, or another modern browser. `meals.js
 
 ## Publish as a website
 
-Upload the contents of this folder to the root of a GitHub repository, then enable GitHub Pages for the `main` branch and the root folder. The site needs no server or external libraries. Dish photos load from the web and need an internet connection; see [IMAGE-CREDITS.md](IMAGE-CREDITS.md) for their source pages.
+Upload the contents of this folder to the root of a GitHub repository, then enable GitHub Pages for the `main` branch and the root folder. The site needs no server or external libraries. Dish photos load from the web and need an internet connection. See [IMAGE-CREDITS.md](IMAGE-CREDITS.md) for their sources.
 
 ## Notes
 
