@@ -1,17 +1,9 @@
-# Gastrofobi
+# Gastrofobi Android uygulaması
 
-Gastrofobi is a browser-first meal planner. It includes 50 Turkish dishes, Turkish and English interface text, a daily dish suggestion, a cooking plan with serving controls, and a combined shopping list that can be edited, copied, or printed.
+Bu klasör, `kadirbaykus/gastrofobi` web sitesine eklenmek üzere hazırlanmıştır. Android uygulaması siteyi WebView içinde açar; uygulamadaki web dosyaları `app/src/main/assets/` içindedir. Yemek fotoğrafları için internet bağlantısı gerekir.
 
-## Open in a browser
+## APK indirme
 
-Open `index.html` in Chrome, Edge, Firefox, or another modern browser. `meals.js` must stay beside `index.html`.
+Bu klasörü depoya ekledikten sonra GitHub'da **Actions** sekmesine gidin. **Build Gastrofobi Android APK** iş akışının yeşil tikli çalışmasını açın. Sayfanın altındaki **Artifacts** bölümünden `gastrofobi-debug-apk` dosyasını indirin. İnen ZIP'in içindeki `app-debug.apk` dosyasını Android telefona aktararak kurabilirsiniz.
 
-## Publish as a website
-
-Upload the contents of this folder to the root of a GitHub repository, then enable GitHub Pages for the `main` branch and the root folder. The site needs no server or external libraries. Dish photos load from the web and need an internet connection. See [IMAGE-CREDITS.md](IMAGE-CREDITS.md) for their sources.
-
-## Notes
-
-- The daily suggestion is selected once per local calendar day and is the same when reopened that day.
-- Each dish shows estimated ingredient amounts for one serving. Serving controls scale the shopping list automatically; quantities can still be edited. Calories and protein are approximate estimates based on the listed amounts, not nutrition or medical advice.
-- The plan, language and color theme choices, checkmarks, and entered amounts are saved in the current browser only.
+Bu debug APK test ve doğrudan telefona kurulum içindir; Google Play'de yayınlamak için ayrıca imzalı sürüm gerekir.
