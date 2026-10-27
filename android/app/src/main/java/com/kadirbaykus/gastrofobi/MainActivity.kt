@@ -37,7 +37,18 @@ class MainActivity : Activity() {
             webView.restoreState(savedInstanceState)
         }
     }
+    private fun createPrintJob() {
+        val printManager =
+            getSystemService(Context.PRINT_SERVICE) as? PrintManager ?: return
+        val jobName = "Gastrofobi - Shopping List"
+        val printAdapter = webView.createPrintDocumentAdapter(jobName)
 
+        printManager.print(
+            jobName,
+            printAdapter,
+            PrintAttributes.Builder().build()
+        )
+    }
     override fun onSaveInstanceState(outState: Bundle) {
         webView.saveState(outState)
         super.onSaveInstanceState(outState)
