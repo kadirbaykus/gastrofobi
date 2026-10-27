@@ -153,7 +153,21 @@
       let lang=read('gastrofobi-language','tr'),theme=read('gastrofobi-theme','dark'),activeCategory='all',plan=read('gastrofobi-plan',{}),checked=read('gastrofobi-checked',{}),amounts=read('gastrofobi-amounts',{}),dailyMeal=null;
       if(!['tr','en'].includes(lang))lang='tr';
       if(!['light','dark'].includes(theme))theme='dark';
-      const text=()=>copy[lang];
+      const text=()=>copy[lang];      const servingText=m=>{
+        const serving=m.serving||text().serving;
+        if(lang!=='en')return serving;
+        return ({
+          '1 porsiyon':'1 serving',
+          '2 yumurta':'2 eggs',
+          '2 adet':'2 pieces',
+          '1 adet':'1 piece',
+          '1 kase':'1 bowl',
+          '5 adet':'5 pieces',
+          '1 fileto':'1 fillet',
+          '1 orta boy':'1 medium potato',
+          '1 dilim':'1 slice'
+        })[serving]||serving;
+      };
       const mealName=m=>lang==='en'?m.englishName:m.name;
       const mealIngredients=m=>lang==='en'?m.englishIngredients:m.ingredients;
       const categoryName=c=>text().filter[c]||c;
