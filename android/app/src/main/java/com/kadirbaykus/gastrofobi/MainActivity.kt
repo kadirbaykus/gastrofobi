@@ -25,7 +25,12 @@ class MainActivity : Activity() {
         webView.settings.allowContentAccess = false
         webView.webViewClient = WebViewClient()
         webView.webChromeClient = WebChromeClient()
-
+        webView.addJavascriptInterface(object {
+            @JavascriptInterface
+            fun printReceipt() {
+                runOnUiThread { createPrintJob() }
+            }
+        }, "AndroidPrint")
         if (savedInstanceState == null) {
             webView.loadUrl("file:///android_asset/index.html")
         } else {
