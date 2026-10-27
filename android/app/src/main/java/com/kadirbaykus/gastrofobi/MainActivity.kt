@@ -6,7 +6,10 @@ import android.os.Bundle
 import android.webkit.WebChromeClient
 import android.webkit.WebView
 import android.webkit.WebViewClient
-
+import android.content.Context
+import android.print.PrintAttributes
+import android.print.PrintManager
+import android.webkit.JavascriptInterface
 class MainActivity : Activity() {
     private lateinit var webView: WebView
 
